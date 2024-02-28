@@ -1,0 +1,127 @@
+address1：地址1。這是公司的主要地址或街道名稱。
+address2：地址2。這是公司地址的額外信息，如樓層、門牌號碼等。
+city：城市。這是公司所在的城市名稱。
+zip：郵遞區號。這是公司所在地的郵遞區號。
+country：國家。這是公司所在的國家名稱。
+phone：電話。這是公司的主要聯繫電話號碼。
+fax：傳真。這是公司的傳真號碼。
+website：網站。這是公司的官方網站網址。
+industry：行業。這是公司所屬的行業類別。
+industryKey：行業關鍵字。這是代表公司所屬行業的關鍵字。
+industryDisp：行業顯示。這是用於顯示的公司所屬行業的名稱。
+sector：部門。這是公司所屬的經濟部門。
+sectorKey：部門關鍵字。這是代表公司所屬經濟部門的關鍵字。
+sectorDisp：部門顯示。這是用於顯示的公司所屬經濟部門的名稱。
+
+longBusinessSummary：長業務摘要。這是對公司業務的詳細描述，包括其主要產品、服務、市場和歷史。
+companyOfficers：公司高管。這是公司高級管理人員的列表，包括他們的名字、職位、財政年度、總薪酬、已行使價值和未行使價值。
+compensationAsOfEpochDate：薪酬截止日期。這是表示薪酬數據最後更新日期的時間戳。
+maxAge：最大年齡。這個指標的具體含義可能會根據上下文而變化，但通常它表示的是數據的有效期限，單位是秒。
+priceHint：價格提示。這個指標的具體含義可能會根據上下文而變化，但它可能表示的是價格的小數點後的位數。
+previousClose：前一交易日收盤價。這是上一個交易日結束時的股票價格。
+open：開盤價。這是當天交易開始時的股票價格。
+dayLow：當日最低價。這是當天交易期間的最低股票價格。
+dayHigh：當日最高價。這是當天交易期間的最高股票價格。
+regularMarketPreviousClose：正常市場前一交易日收盤價。這是在正常交易時間內，上一個交易日結束時的股票價格。
+regularMarketOpen：正常市場開盤價。這是在正常交易時間內，當天交易開始時的股票價格。
+regularMarketDayLow：正常市場當日最低價。這是在正常交易時間內，當天交易期間的最低股票價格。
+regularMarketDayHigh：正常市場當日最高價。這是在正常交易時間內，當天交易期間的最高股票價格。
+
+forwardPE：預期市盈率。這是基於公司未來預期盈利的市盈率。
+volume：成交量。這是在一個特定時間段內交易的股票數量。
+regularMarketVolume：正常市場成交量。這是在正常交易時間內交易的股票數量。
+averageVolume：平均成交量。這是過去一段時間內的平均每日交易量。
+averageVolume10days：10日平均成交量。這是過去10個交易日的平均每日交易量。
+averageDailyVolume10Day：10日平均每日成交量。這與averageVolume10days的含義相同。
+bid：買入價。這是投資者願意為一股股票支付的最高價格。
+ask：賣出價。這是賣家希望為一股股票收取的最低價格。
+marketCap：市值。這是公司的總市值，計算方式是股票價格乘以發行的股票總數。
+trailingAnnualDividendRate：過去一年的股息率。這是公司在過去一年內每股支付的股息。
+trailingAnnualDividendYield：過去一年的股息收益率。這是過去一年的股息率除以股票的當前價格。
+currency：貨幣。這是公司財務數據的貨幣單位。
+enterpriseValue：企業價值。這是公司的總價值，計算方式是市值加上債務，再減去現金和現金等價物。
+profitMargins：利潤率。這是公司的淨利潤與總收入之間的比例。
+floatShares：流通股數。這是可供公眾交易的股票數量。
+sharesOutstanding：已發行股份。這是公司已發行且仍在外的股票總數。
+heldPercentInstitutions：機構持股比例。這是由機構投資者持有的股票數量與總股數的比例。
+impliedSharesOutstanding：推定的已發行股份。這是根據公司的市值和股票價格推算出的已發行股份數量。
+bookValue：賬面價值。這是公司的資產減去負債後的價值，再除以已發行的股票數量。
+priceToBook：價值比率。這是股票價格與每股賬面價值的比率。
+lastFiscalYearEnd：上一財政年度結束。這是上一個財政年度結束的日期。
+nextFiscalYearEnd：下一財政年度結束。這是下一個財政年度預計結束的日期。
+mostRecentQuarter：最近一季度。這是最近一個財務季度的結束日期。
+
+trailingEps：過去每股盈餘。這是公司在過去一年每股賺取的淨利潤。
+forwardEps：預期每股盈餘。這是分析師預計公司在未來一年每股將賺取的淨利潤。
+pegRatio：價盈成長比率。這是市盈率與預期盈利成長率的比值，用於評估股票的價值是否合理。
+lastSplitFactor：最後一次股票分割因子。這是公司最後一次進行股票分割的比例。
+lastSplitDate：最後一次股票分割日期。這是公司最後一次進行股票分割的日期。
+enterpriseToRevenue：企業價值對收入比。這是公司的企業價值與其總收入的比值。
+enterpriseToEbitda：企業價值對EBITDA比。這是公司的企業價值與其稅前息前折舊前攤銷利潤的比值。
+52WeekChange：52週變化。這是股票價格在過去52週的變化率。
+SandP52WeekChange：標普500指數52週變化。這是標普500指數在過去52週的變化率。
+lastDividendValue：最後一次股息值。這是公司最後一次分發的每股股息。
+lastDividendDate：最後一次股息日期。這是公司最後一次分發股息的日期。
+uuid：唯一識別碼。這是公司的唯一識別碼。
+messageBoardId：留言板ID。這是公司的財經討論區的識別碼。
+gmtOffSetMilliseconds：格林威治標準時間偏移毫秒數。這是公司所在地與格林威治標準時間的時間差。
+currentPrice：當前價格。這是股票的當前交易價格。
+targetHighPrice：目標最高價。這是分析師預計股票將達到的最高價格。
+targetLowPrice：目標最低價。這是分析師預計股票將達到的最低價格。
+targetMeanPrice：目標平均價。這是分析師預計股票將達到的平均價格。
+targetMedianPrice：目標中位價。這是分析師預計股票將達到的中位數價格。
+recommendationMean：推薦平均值。這是分析師對股票的平均評級，數字越小表示評級越高。
+recommendationKey：推薦關鍵詞。這是分析師對股票的總體評價，如"買入"、"持有"或"賣出"。
+debtToEquity：債務對權益比。這是公司的總債務與總權益的比值，用於評估公司的財務風險。
+revenuePerShare：每股收入。這是公司的總收入除以已發行的股票數量。
+returnOnAssets：資產回報率。這是公司的淨利潤與總資產的比值，用於評估公司的資產利用效率。
+returnOnEquity：權益回報率。這是公司的淨利潤與總權益的比值，用於評估公司的權益利用效率。
+freeCashflow：自由現金流。這是公司營運活動產生的現金流量減去資本支出後的餘額。
+operatingCashflow：營運現金流。這是公司營運活動產生的現金流量。
+earningsGrowth：盈利增長。這是公司盈利與上一期比較的增長率。
+grossMargins：毛利率。這是公司的毛利與總收入的比值。
+ebitdaMargins：EBITDA利潤率。這是公司的EBITDA（稅前息前折舊前攤銷利潤）與總收入的比值。
+operatingMargins：營業利潤率。這是公司的營業利潤與總收入的比值。
+financialCurrency：財務貨幣。這是公司財務報告的貨幣單位。
+trailingPegRatio：過去價盈成長比率。這是過去市盈率與盈利成長率的比值。
+
+
+--------------------------------------------------------------------------
+
+這是 `backtesting` 套件回測結果的一些主要欄位的解釋：
+
+- `Start` 和 `End`：回測的開始和結束日期。
+- `Duration`：回測的總時間長度。
+- `Exposure Time [%]`：策略在市場中的時間比例。
+- `Equity Final [$]`：策略結束時的資金餘額。
+- `Equity Peak [$]`：策略在回測期間的最高資金餘額。
+- `Return [%]`：策略的總回報率。
+- `Buy & Hold Return [%]`：如果採取買入並持有的策略，則的回報率。
+- `Return (Ann.) [%]`：策略的年化回報率。
+- `Volatility (Ann.) [%]`：策略的年化波動率。
+- `Sharpe Ratio`：策略的夏普比率，用於衡量風險調整後的回報。
+- `Sortino Ratio`：策略的索提諾比率，類似夏普比率，但只考慮下行風險。
+- `Max. Drawdown [%]`：策略的最大回撤率。
+- `Avg. Drawdown [%]`：策略的平均回撤率。
+- `Max. Drawdown Duration`：策略的最長回撤期間。
+- `Avg. Drawdown Duration`：策略的平均回撤期間。
+- `# Trades`：策略進行的交易次數。
+- `Win Rate [%]`：策略的勝率，即獲利交易的比例。
+- `Best Trade [%]`：策略的最佳交易回報率。
+- `Worst Trade [%]`：策略的最差交易回報率。
+- `Avg. Trade [%]`：策略的平均交易回報率。
+- `Max. Trade Duration`：策略的最長交易期間。
+- `Avg. Trade Duration`：策略的平均交易期間。
+- `Profit Factor`：獲利交易的總利潤與虧損交易的總虧損的比例。
+- `Expectancy [%]`：每筆交易的預期回報。
+- `SQN`：系統品質數字，用於衡量交易系統的性能。
+
+
+Size：交易的大小，也就是買賣的股票數量。
+EntryBar 和 ExitBar：進場和出場的時間點，以 bar 的數量表示。
+EntryPrice 和 ExitPrice：進場和出場的價格。
+PnL：這筆交易的損益，計算方式是 (ExitPrice - EntryPrice) * Size。
+ReturnPct：這筆交易的回報率，計算方式是 (ExitPrice - EntryPrice) / EntryPrice。
+EntryTime 和 ExitTime：進場和出場的實際日期。
+Duration：這筆交易的持有期間。
+
